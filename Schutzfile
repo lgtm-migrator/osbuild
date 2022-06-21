@@ -1,5 +1,10 @@
 {
   "fedora-35": {
+    "dependencies": {
+      "manifest-db": {
+        "commit": "4f596a41565de71bcbec7cd23709cb4888fa7f34"
+      }
+    },
     "repos": [
       {
         "file": "/etc/yum.repos.d/fedora.repo",
@@ -144,6 +149,11 @@
     ]
   },
   "centos-stream-9": {
+    "dependencies": {
+      "manifest-db": {
+        "commit": "4f596a41565de71bcbec7cd23709cb4888fa7f34"
+      }
+    },
     "repos": [
       {
         "file": "/etc/yum.repos.d/centos.repo",
@@ -184,7 +194,26 @@
       }
     ]
   },
+  "rhel-8.5": {
+    "dependencies": {
+      "manifest-db": {
+        "commit": "4f596a41565de71bcbec7cd23709cb4888fa7f34"
+      }
+    }
+  },
+  "rhel-8.6": {
+    "dependencies": {
+      "manifest-db": {
+        "commit": "4f596a41565de71bcbec7cd23709cb4888fa7f34"
+      }
+    }
+  },
 "rhel-8.7": {
+    "dependencies": {
+      "manifest-db": {
+        "commit": "4f596a41565de71bcbec7cd23709cb4888fa7f34"
+      }
+    },
     "repos": [
       {
         "file": "/etc/yum.repos.d/rhel8internal.repo",
@@ -225,7 +254,33 @@
       }
     ]
   },
+  "rhel-9.0": {
+    "dependencies": {
+      "manifest-db": {
+        "commit": "4f596a41565de71bcbec7cd23709cb4888fa7f34"
+      }
+    }
+  },
+  "centos-8": {
+    "dependencies": {
+      "manifest-db": {
+        "commit": "4f596a41565de71bcbec7cd23709cb4888fa7f34"
+      }
+    }
+  },
+  "centos-9": {
+    "dependencies": {
+      "manifest-db": {
+        "commit": "4f596a41565de71bcbec7cd23709cb4888fa7f34"
+      }
+    }
+  },
   "rhel-9.1": {
+    "dependencies": {
+      "manifest-db": {
+        "commit": "4f596a41565de71bcbec7cd23709cb4888fa7f34"
+      }
+    },
     "repos": [
       {
         "file": "/etc/yum.repos.d/rhel9internal.repo",
@@ -267,6 +322,11 @@
     ]
   },
   "centos-stream-8": {
+    "dependencies": {
+      "manifest-db": {
+        "commit": "4f596a41565de71bcbec7cd23709cb4888fa7f34"
+      }
+    },
     "repos": [
       {
         "file": "/etc/yum.repos.d/CentOS-Stream-BaseOS.repo",
